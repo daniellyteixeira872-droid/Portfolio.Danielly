@@ -22,18 +22,35 @@
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(59, 47, 47, 0.08);
             border: 1px solid #e6dbcc;
+            text-align: left;
+        }
+
+        .profile-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .profile-pic {
+            width: 220px;
+            height: 300px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 3px solid #e6dbcc;
+            box-shadow: 0 4px 10px rgba(59, 47, 47, 0.15);
         }
 
         h1 {
             color: #2b2121;
             margin-bottom: 5px;
             font-size: 2rem;
+            text-align: center;
         }
 
         .subtitle {
             color: #6b5b53;
             font-size: 1.15rem;
             margin-bottom: 30px;
+            text-align: center;
         }
 
         h2 {
@@ -63,7 +80,7 @@
             border-top: 1px solid #e6dbcc;
         }
 
-        .links a {
+        .links a, .links span {
             display: inline-block;
             margin-right: 25px;
             color: #4a3832;
@@ -80,10 +97,15 @@
 <body>
 
     <div class="container">
-        <h1>Danielly Teixeira</h1>
-        <div class="subtitle">Graduanda em Ciência da Computação e Profissional de TI</div>
+        <!-- Fotografia de Perfil -->
+        <div class="profile-container">
+            <img src="foto.jpeg" alt="Danielly Teixeira" class="profile-pic">
+        </div>
 
-        <h2>Sobre Mim e Minha Trajetória</h2>
+        <h1>Danielly Teixeira</h1>
+        <div class="subtitle">Graduanda em Ciência da Computação</div>
+
+        <h2>Minha Trajetória</h2>
         <p>Vinda de escola pública, sempre entendi que a dedicação seria a minha principal ferramenta. Minha jornada acadêmica e profissional é marcada por determinação e foco nos estudos como alavanca para transformar a realidade. Minha ligação com a rede federal começou em 2021, quando ingressei no Instituto Federal de Minas Gerais (IFMG) para cursar o ensino técnico em mecânica industrial. Essa vivência em regime integral foi um divisor de águas e um suporte fundamental para o meu desempenho, inclusive resultando em uma excelente nota na redação do ENEM.</p>
         <p>Com dedicação e perseverança, conquistei o primeiro lugar no ProUni para o curso de Ciência da Computação na Faculdade Una, com conclusão prevista para dezembro de 2027, realizando o sonho de acessar o ensino superior de qualidade. Atualmente, também atuo como representante de turma, o que me permite desenvolver habilidades essenciais de liderança e colaboração com os colegas.</p>
 
@@ -107,7 +129,7 @@
             <a href="mailto:daniellyteixeira152@gmail.com">E-mail</a>
             <a href="https://www.linkedin.com/in/danielly-teixeira-8940a4350" target="_blank">LinkedIn</a>
             <a href="https://github.com/daniellyteixeira872-droid" target="_blank">GitHub</a>
-            <span>Telefone: (31) 989766986</span>
+            <span>(31) 989766986</span>
         </div>
     </div>
 
